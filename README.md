@@ -1,2 +1,2 @@
 # Web-site
-the normal buy and sell web site for medicines 
+A Buy and Selling web site for medicines. 
