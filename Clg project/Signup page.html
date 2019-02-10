@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Login Form</title>
+  
+    <link rel="stylesheet" href="style.css">
+
+  
+      <style>
+html { width: 100%; height:100%; overflow:hidden; }
+
+body { 
+	width: 100%;
+	height:100%;
+	font-family: 'Open Sans', sans-serif;
+	background: #092756;
+    height: 200px;
+   
+    background-image: linear-gradient(blue, lightgreen); /* Standard syntax (must be last) */
+}
+.login { 
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -150px 0 0 -150px;
+	width:300px;
+	height:300px;
+}
+
+		  
+input { 
+	width: 100%; 
+	margin-bottom: 10px; 
+	background: rgba(0,0,0,0.3);
+	border: none;
+	outline: none;
+	padding: 10px;
+	font-size: 13px;
+	color: #fff;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+	border: 1px solid rgba(0,0,0,0.3);
+	border-radius: 4px;
+}
+input:focus { box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgba(255,255,255,0.2); }
+
+    </style>
+</head>
+
+<body>
+
+  <div class="login">
+	<h1>SignUp</h1>
+    <form name="myForm1" action>
+    	<input type="text" name="adid" placeholder="username" required="required" />
+        <input type="password" name="adpwd" placeholder="password" required="required" />
+        <input type="button" onclick="validateForm()" class="btn btn-primary btn-block btn-large" value="submit" />
+		<p style="color: azure">By adding Yout User id And password you are able to buy 
+medicine as well as you can authentically sell medicines
+from your company as certified by indian medical 
+association</p>
+    </form>
+</div>
+  
+  
+
+    <script  src="Script.js"></script>
+
+
+
+
+</body>
+
+</html>

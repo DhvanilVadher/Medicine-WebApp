@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<link rel="stylesheet" type="text/CSS" href="heloCSS.css">
+	<Style>
+		#good{
+			align-self: center;
+			float:left;
+			background-image: url("medicine.jpg");
+			height: 400px;
+			width: 100%;
+		}
+.btn-group button {
+    background-color: Transparent;
+	color: coral;
+	height: 150px;
+	width: 120%;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+#right1{
+	border: #890A79;
+	float:right;
+	height:1200px;
+	width:590px;
+	background-color: cyan;
+ 	font-size:20px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	background-image: linear-gradient(blue,white);
+}
+#left1{
+float: left;
+height: 50%;
+width:60%;  
+}
+	</Style>
+	
+</head>
+<body style="background-image: linear-gradient(white,lightblue);">
+	<div id="header">
+		<p name="Heading">MEDICO.COM	
+		</p>
+	</div>
+	<div id="header2" style="vertical-align: bottom"><br>
+		<p align="right">
+			<button class="button" onClick="ThisFunc()">
+				ADD MEDICINE
+			</button>
+		</p>
+	</div>
+	<div id="header2">
+		<br>
+		<br>
+		<form name="MyForm">
+			<input type="text" name="Search" placeholder="Search..">
+		</form>
+	</div>
+	<div id="good"></div>
+	<div id="left">
+	</div><div id="left1">
+	<div class="btn-group">
+		<button class="button" onclick="thi(40,'a-linolenic acid')" onClick="adding(1)">  a-linolenic acid	40 &#x20b9;</button>
+		<button class="button" onclick="thi(56,'Azulene')" onClick="adding(1)">Azulene	56  &#x20b9;</button>
+		<button class="button" onclick="thi(4,'Unoprostone isopropyl')" onClick="adding(1)">Unoprostone isopropyl 43 &#x20b9;</button>
+		<button class="button" onclick="thi(30,'Pancrecarb')">Pancrecarb 30 &#x20b9;</button>
+		<button class="button" onclick="thi(7,'Lansoprazole')">Lansoprazole 7 &#x20b9;</button>
+		<button class="button" onclick="thi(19,'Gemfibrozil')">Gemfibrozil 19 &#x20b9;</button>
+		<button class="button" onclick="thi(35,'Zalcitabine')">Zalcitabine 35  &#x20b9;</button>
+		<button class="button" onclick="thi(32,'Xenazine')">Xenazine 32  &#x20b9;</button>
+		<button class="button" style="display: none;" id="1"></button>
+		<button class="button" style="display: none;" id="2">10</button>
+		<button class="button" style="display: none;" id="3">11</button>
+		<button class="button" style="display: none;" id="4">12</button>
+		<button class="button" style="display: none;" id="5">13</button>
+		<button class="button" style="display: none;" id="6">14</button>
+		<button class="button" style="display: none;" id="7">15</button>
+		<button class="button" style="display: none;" id="8">16</button>
+		<button class="button" style="display: none;" id="9">17</button>
+		<button class="button" style="display: none;" id="10">18</button>
+		<button class="button" style="display: none;" id="11">19</button>
+		<button class="button" style="display: none;" id="12">20</button>
+	</div>
+	</div>
+	<div id="right1"><img src="cart.png" height="50px" width="50px" alt="shopping cart" align="right"><p style="font-size: 30px;">Shopping Cart</p><p id="hup"></p>
+		<button class="button" onClick="Bought()">
+			Click here to buy medicines
+		</button>
+	</div>
+		
+ 	<script src="Script.js"></script>
+	</body>
+</html>

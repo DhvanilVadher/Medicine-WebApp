@@ -1,0 +1,77 @@
+<!doctype.html>
+<head>
+<title>
+Hello
+</title>
+<style>
+#header{
+	font-size:50px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	background-color:blue;
+	color : white;
+	text-align:left;
+}
+#middle{
+	font-size:30px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	background-color:lightblue;
+	color : green;
+	text-align:left;
+	height:50%;
+}
+#img1{
+	align:left;
+	height:20%;
+	widhth:25%;
+}
+.button {
+  font-family:"Comic Sans MS", cursive, sans-serif;
+  padding: 5px 5px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: 1px;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color:red}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+</style>
+<script>
+function validateForm() {
+    var x = document.forms["myForm"]["fname"].value;
+    if (x == "") {
+        alert("Name must be filled out");
+        return false;
+    }
+}
+</script>
+</head>
+<body>
+<div id="header">
+	<p>Hello !!<font color="Lightgreen">We welcome you</font> to  MediCo </font></p>
+</div>
+
+<div id="middle">
+	<p> NewUser?	<br> Sign up here.</p>
+
+	<form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+	<font size="5">Name: <input type="text" name="fname" vspace="2">
+	<br>
+	Password:<input type="text" name="Password"> 
+	<br>
+	<button class="button" >
+	Submit Here</button>
+	</form>
+</div>
+</body>

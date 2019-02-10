@@ -1,0 +1,165 @@
+<!doctype.html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/CSS" href="TItle Page.html">
+	<script src="Script.js"></script>
+<style>
+#header{
+	font-size:40px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	background-color:white;
+	background-image: linear-gradient(white,lightblue ); 
+	color : royalblue;
+	text-align:left;
+	height:15%;
+	width:60%;
+	float:left;
+}
+	#header2{
+		font-size:20px;
+		font-family: "Comic Sans MS", cursive, sans-serif;
+		background-color: white;
+		background-image: linear-gradient(white,lightblue); 
+		float:left;
+		height: 15%;
+		width: 20%;
+	}
+	.button { 
+  font-family:"Comic Sans MS", cursive, sans-serif;
+  padding: 5px 5px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: 1px;
+  color: #fff;
+  background-color:lightskyblue;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.button:hover {background-color:DarkBlue}
+.button:active {
+  background-color:darkslateblue;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+	input[type=text] {
+	margin-left: 5px;
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+	input[type=text]:focus {
+    width: 95%;
+}
+	#left{
+	height:60%;
+	width:100%;
+	background-color:lightblue;
+	background-image: linear-gradient(lightblue,white); 
+	float:left;
+}
+	#footer{
+		font-size:20px;
+		font-family: "Comic Sams MS",cursive, sans-serif;
+		background-color:skyblue;
+		text-align: left;
+		height: 20%;;
+		width:40%;
+		float:left;
+		color: darkblue;
+	}
+	.button { 
+  font-family:"Comic Sans MS", cursive, sans-serif;
+  padding: 5px 5px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: 1px;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.button:hover {background-color:DarkBlue}
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+	#tail1{
+		height:80%;
+		width: 10%;
+		float: left;
+	}
+	#tail{
+		align-content: center;
+		text-align: center;
+		font-family: "Comic Sans MS", cursive, sans-serif;
+		font-size: 30px;
+		height: 80%;
+		width: 80%;
+		float:left;
+	}
+	</style>
+
+	</head>
+<body>
+	<div id="header">
+		<p name="Heading">Medico.com	
+		</p>
+	</div>
+	<div id="header2" style="vertical-align: bottom"><br>
+	<a href="LoginPage.html">	<p style="text-align: right"><button class="button">
+			Login
+		</button>
+		</a><a href="Signup page.html">
+		<button class="button">
+			SignUp
+		</button></a>
+		</p>
+	</div>
+	<div id="header2">
+		<br>
+		<br>
+		<form name="MyForm" Onsubmit='return window.openFoundOrNotFound'>
+			<input type="text" name="Search" placeholder="Search..">
+		</form>
+	</div>
+	<div id="left" style="width:20%"></div><div id="left" style="width:80%"><p style="text-align: center"></p>
+		<img src="images.png" height="80%" width="60%" alt="medicines">
+	</p>
+	</div>
+<div id="tail1"></div>
+<div id="tail"><p>We, at <b>Medico</b>, know how crucial medicine is to treating health conditions and we are extremely proud to be at the forefront of the online medicine industry. <b>Medico</b> offers its customers with a reliable online pharmacy service and as a testament to our commitment, we are regularly recognised and honoured with awards.
+
+We are pleased to highlight some of our awards here... and we aim to continue adding more feathers to our cap: We have bagged the Health Tech Start Up of the Year at the NDTV Unicorn Awards 2016. We are also proud that we have been selected as ‘Asia’s Most Promising Brand 2018’ by Int+ WCRC International.</p><img src="doc.png" style="height: 300px;width: 200px;">
+	<br>
+<p style="font-size:20px;text-align:left;">
+	Contect us:+91934342342<br>
+	Mail us:medico23@gmail.com</p>
+	
+	<p>Admin login</p>
+        <form name="myForm1" action>
+    	<input type="text" name="adid" placeholder="username" required="required" />
+        <input type="text" name="adpwd" placeholder="password" required="required" />
+        <input type="button" onclick="validateForm2()" class="btn btn-primary btn-block btn-large" value="submit" />
+	</form>
+	</p>
+	</div>
+
+<script src="Script.js"></script>
+</body>
+</html>
